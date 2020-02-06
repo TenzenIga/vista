@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/vista/static/css/main.1612a597.chunk.css",
+    "main.css": "/vista/static/css/main.3407b7c5.chunk.css",
     "main.js": "/vista/static/js/main.5c9bf1db.chunk.js",
     "main.js.map": "/vista/static/js/main.5c9bf1db.chunk.js.map",
     "runtime-main.js": "/vista/static/js/runtime-main.ad1c0760.js",
@@ -8,15 +8,15 @@
     "static/js/2.86aaca49.chunk.js": "/vista/static/js/2.86aaca49.chunk.js",
     "static/js/2.86aaca49.chunk.js.map": "/vista/static/js/2.86aaca49.chunk.js.map",
     "index.html": "/vista/index.html",
-    "precache-manifest.6668c22b46ce1edc513c1f3fcf2172da.js": "/vista/precache-manifest.6668c22b46ce1edc513c1f3fcf2172da.js",
+    "precache-manifest.52fe4fe6be5cc86edbf1a197b4a1117e.js": "/vista/precache-manifest.52fe4fe6be5cc86edbf1a197b4a1117e.js",
     "service-worker.js": "/vista/service-worker.js",
-    "static/css/main.1612a597.chunk.css.map": "/vista/static/css/main.1612a597.chunk.css.map",
+    "static/css/main.3407b7c5.chunk.css.map": "/vista/static/css/main.3407b7c5.chunk.css.map",
     "static/js/2.86aaca49.chunk.js.LICENSE.txt": "/vista/static/js/2.86aaca49.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ad1c0760.js",
     "static/js/2.86aaca49.chunk.js",
-    "static/css/main.1612a597.chunk.css",
+    "static/css/main.3407b7c5.chunk.css",
     "static/js/main.5c9bf1db.chunk.js"
   ]
 }

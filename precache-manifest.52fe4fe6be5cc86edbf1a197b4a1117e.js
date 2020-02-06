@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cd8aafe2ea412bdde7ae1578fc45475d",
+    "revision": "a7d219af2b9f364a52d143ddb67d632f",
     "url": "/vista/index.html"
   },
   {
-    "revision": "c77635ccc6998df19686",
-    "url": "/vista/static/css/main.1612a597.chunk.css"
+    "revision": "39292e943a6f36441c5f",
+    "url": "/vista/static/css/main.3407b7c5.chunk.css"
   },
   {
     "revision": "67f8dc3f108e7db5cf56",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vista/static/js/2.86aaca49.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c77635ccc6998df19686",
+    "revision": "39292e943a6f36441c5f",
     "url": "/vista/static/js/main.5c9bf1db.chunk.js"
   },
   {
