@@ -119,3 +119,14 @@ tr.active{
   border-left:2px solid #3398CC;
   background: #EEEEEE;
 }
+@media screen and (max-width: 720px){
+  .App{
+    flex-wrap: wrap;
+  }
+  .sidebar{
+    height: 30vh;
+  }
+  .tab{
+    margin: 0;
+  }
+}

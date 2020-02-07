@@ -1,22 +1,16 @@
 import React, { createContext, useState} from "react";
+import {IPatientInfo} from '../interface/interface';
 
 
-interface IPatient{
-    name:string
-    age:number|null 
-    diagnosis:string
+interface IContext{
+    patient:IPatientInfo
+    setPatient:Function
 }
 
-interface IAction{
-    type:string
-    payload:any
-}
-
-export const PatientContext = createContext<any>({})
-
+export const PatientContext = createContext<Partial<IContext>>({})
 
 export function PatientProvider(props:JSX.ElementChildrenAttribute):JSX.Element{
-    const [patient, setPatient] = useState({})
+    const [patient, setPatient] = useState({} as IPatientInfo)
 
     return <PatientContext.Provider value={{patient, setPatient}}>
         {props.children}
