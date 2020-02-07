@@ -16,15 +16,18 @@ export default function TableRow(props:props) {
 
     
     const handleClick = ()=>{
-        //onclick we set clobal user info state via context API
+        //onclick we set global user info state via context API
+        
         setPatient({
             name:firstName + lastName,
             age:calculateAge(birthDate),
             diagnosis:diagnosis
             })
+        
         // and add active css class 
             setActiveRow(historyNumber)
     }
+
     let className = '';
     if(activeRow === historyNumber){
         className ='active'

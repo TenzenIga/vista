@@ -6,11 +6,14 @@ interface IContext{
     patient:IPatientInfo
     setPatient:Function
 }
-
-export const PatientContext = createContext<Partial<IContext>>({})
+const context:IContext = {
+    patient:{name:'', age:'',diagnosis:''},
+    setPatient:()=>{}
+}
+export const PatientContext = createContext<IContext>(context)
 
 export function PatientProvider(props:JSX.ElementChildrenAttribute):JSX.Element{
-    const [patient, setPatient] = useState({} as IPatientInfo)
+    const [patient, setPatient] = useState()
 
     return <PatientContext.Provider value={{patient, setPatient}}>
         {props.children}

@@ -13,6 +13,6 @@ export interface IPatient{
 //interface for patient info
 export interface IPatientInfo{
     name:string
-    age:number
+    age:number|''
     diagnosis:string
 }
